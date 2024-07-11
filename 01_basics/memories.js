@@ -19,8 +19,8 @@ newPaymentDetails.Upi = "478965.@icic"
 newPaymentDetails.paymentTime = "06:32:01"
 
 console.log(newPaymentDetails)
-console.log(`Upi id of first payment `+newPaymentDetails.Upi +'\n' +`Payment time of first payment `+newPaymentDetails.paymentTime+'\n')
-console.log(`Upi id of second payment `+newPaymentDetails.Upi+'\n'+`Payment time of second payment `+newPaymentDetails.paymentTime);
+console.log(`Upi id of first payment :${newPaymentDetails.Upi}\n Payment time of first payment :${newPaymentDetails.paymentTime}'\n'`)
+console.log(`Upi id of second payment "${newPaymentDetails.Upi}\n Payment time of second payment :${newPaymentDetails.paymentTime}`)
 
 // HEaP -->When we change the value in copies elements then it's actually change the Original values.
 
