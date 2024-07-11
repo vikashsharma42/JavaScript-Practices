@@ -7,7 +7,6 @@ console.log(2 * 6 + 5 % 2 / 5)
  * In above situtation accournig to precidence the operation wiil be perform
  */
 
-
 let score = 120
 const newScore = score++
 console.log(`Score:${score} , newScore:${newScore}`)
